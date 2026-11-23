@@ -1,6 +1,6 @@
 # OBJECTS Presswerk — Cooling Team Reference
 
-**Working reference • 23 November 2026 • English • Draft for external sharing review**
+**Working reference • 23 November 2026 • English • Public — curated for the Objects team and its contractor**
 
 This small reference is designed to help colleagues understand the cooling contingency, discuss possible solutions with an AI assistant such as Gemini, and send corrections back to the team. It is **not a final hydraulic design**, a claim of operational readiness, or a substitute for a qualified installer.
 
