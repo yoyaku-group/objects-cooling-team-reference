@@ -1,6 +1,6 @@
 # Equipment and status — 23 November 2026
 
-This distinguishes **identified** equipment from **working and approved** equipment. Quantities and conditions below are documented status, not physical re-verification on 23 November.
+This distinguishes **identified** equipment from **working and approved** equipment. Quantities and conditions below are documented status, not physical re-verification on 23 November. **Time-sensitive updates are snapshots, not live claims**: [freshness and evidence policy](STATUS-AND-FRESHNESS.md).
 
 | Equipment / function | Status | What the team should know |
 |---|---|---|
@@ -10,7 +10,7 @@ This distinguishes **identified** equipment from **working and approved** equipm
 | **P5.2 / existing chiller-area cold-water pump** | **ON SITE / INDOOR REUSE CANDIDATE — NOT APPROVED** | Service label states **18 m³/h**; **not a measured running flow**. Its controller has an unreadable red text area. Exact motor/hydraulic model, present chiller relationship and independent safe running mode have **not** been established. |
 | Existing ~600 L vessel and ~600 L prepared water | **ON SITE / REPORTED** | The vessel and water are not separate additive tank volumes. Fluid compatibility, actual fill, cleanliness, and temperature need verification. |
 | Three portable pumps | **ON SITE / REPORTED** | GARDENA 3700/4 BASIC and T.I.P. TVX 7000 were identified in earlier photos, but are **not suitable for selection as industrial continuous-duty pumps** here. A third independent model is not verified. |
-| Three new **1,000 L** IBC containers | **ORDERED / EMPTY — RECEIPT PENDING** | An order acceptance was sent; delivery proposed for **Tuesday 24 Nov 11:00–12:00**, seller's newer acknowledgment and actual receipt not yet evidenced at this checkpoint. Filling and initial cooling remain separate tasks. |
+| Three **1,000 L** IBC containers | **SELLER CONFIRMED / EMPTY — RECEIPT PENDING** | Written seller confirmation received **Monday 23 Nov, 14:53 CET** for delivery **Tuesday 24 Nov, 11:00–12:00 CET**; supplier delivery/unloading agreed. Site access and operations contact shared privately. **Physical arrival, inspection, outlets, cleanliness, filling and suitability are still unverified.** After **24 Nov 12:30 CET**, recheck with the onsite team before stating any current delivery result. |
 | Temporary separating heat exchanger | **TO SELECT** | Must be dimensioned from actual four temperatures, both flows, fluid compatibility and losses. No spare HX is confirmed. |
 | Exterior continuous-duty pump | **TO SELECT / REUSE ONLY IF QUALIFIED** | One separate exterior circulation function is required for the reference module; actual pump model and duty remain open. |
 | Hoses, fittings, safe isolation and frosted-state protection | **TO SELECT / ORDER** | A short DN50/C52 hose kit was shortlisted, not confirmed purchased as of the verified checkpoint. The full line route and connectors must be engineered. |
