@@ -1,6 +1,6 @@
 # Cooling contingency — team brief for 24–27 November 2026
 
-**Snapshot prepared late on 23 November 2026.**  
+**Snapshot revised early on 24 November 2026.**  
 **Next review: 24 November at 08:00 CET; IBC receipt check by 12:30 CET.**
 
 This page updates the earlier 23 November concept notes. It is a preparation and coordination brief, not an approved installation drawing or evidence that the temporary system is ready to operate. Original evidence and the detailed working manual remain in the team's private records.
@@ -35,7 +35,7 @@ Demineralized water is not freeze protection. Before outdoor use, the installer 
 
 Possible strategies require different equipment and procedures: a compatible protected secondary fluid, or a genuinely drainable arrangement that can be emptied and verified before freezing conditions. Switching a pump off or emptying only the visible hoses does not establish that all trapped liquid has been removed. A drain-down strategy must also address the tanks and the residual liquid in pumps, valves and the heat exchanger; it is not a general instruction to blow compressed air through the installation.
 
-Do not add an unidentified antifreeze to an existing liquid or mix unknown coolant products. Identify the liquids and obtain the applicable material and manufacturer compatibility checks first.
+**No glycol addition to the press process fluid is approved.** Identify the full hot-water/steam/return path and obtain applicable machine instructions before changing it. A separate outdoor fluid requires its own material and operating approval; do not mix unknown products.
 
 ## Work sequence
 
@@ -54,3 +54,14 @@ Record what was actually observed, by whom and when. Keep separate states for **
 After **24 November at 12:30 CET**, the IBC delivery promise requires a fresh site check. Without that check, do not report either successful delivery or a missed delivery.
 
 Send receipts, supplier messages, photographs and plant details through the team's private channel. Public corrections should contain only the non-sensitive status needed to keep this reference accurate.
+
+## Additional findings from the 24-Nov review
+
+- Select each pump against actual duty and minimum inlet conditions at the lowest working level. Short flooded suction is not a universal qualification; the used circulator route remains on hold for direct open-tank service. No pump pair is approved.
+- Locate the applicable factory operating manual and identify the existing fluids before altering chemistry. A heat-exchanger separation recommendation does not approve antifreeze in the hot process circuit.
+- Apply the exact selected exchanger's cold-temperature and cycling limits. A positive thermometer reading alone is not sufficient. Include measurement uncertainty and response time when designing protections.
+- Record independent free recovery capacity. Full outdoor IBCs cannot also serve as empty protected recovery containers. Include tanks, outlets, filters, pump cavities and HX passages in the outage/drain plan.
+- Define a response for loss of either flow, exhausted cold buffer despite healthy flows, leakage, sensor failure, loss of mains and restoration. Electronic OFF alone is not service isolation.
+- Distinguish the installer's bounded commissioning fill/start from production release. Operating release requires actual measured flow, temperature, control and fault tests.
+
+These points are verification work for the responsible professionals, not instructions to change plant settings or connect equipment. The detailed source and closure register remains private.

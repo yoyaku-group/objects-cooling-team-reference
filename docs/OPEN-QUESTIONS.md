@@ -15,3 +15,13 @@
 
 When correcting an item, indicate **what you personally observed**, **what is historical documentation**, and **what is a suggestion**. Please send confidential evidence privately, not in public GitHub issues.
 
+
+## Added closure questions — 24 November
+
+1. What does the applicable factory manual permit in the complete hot process-water/steam/return path, and what fluid is actually present?
+2. Does each selected pump meet its manufacturer's inlet requirements at the lowest working liquid level?
+3. How are internal HX leakage and contamination detected and handled?
+4. Where is the separate empty recovery capacity, and how is every exposed water volume protected after a single-pump failure or total outage?
+5. What is the buffer exhaustion criterion, even if both pumps and flow indicators remain healthy?
+6. How do instrument accuracy, mounting delay and actuator response affect the protective margins?
+7. Who owns the bounded commissioning procedure, measured operating release and each end-of-shift handover?

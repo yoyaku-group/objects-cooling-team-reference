@@ -1,6 +1,6 @@
 # Cooling concept — current plant versus temporary add-on
 
-**Evidence date: 23 November 2026, late-evening update.** Functional overview, not installation instructions. Physical connections, current valve configuration and measured performance remain unconfirmed.
+**Evidence date: 24 November 2026, early-morning review.** Functional overview, not installation instructions. Physical connections, current valve configuration and measured performance remain unconfirmed.
 
 > Read the [24–27 November brief](CURRENT-TEAM-BRIEF-2026-11-24.md) for updated purchases, delivery and winter hold points. The drawing below is a functional concept, not an approved assembly drawing.
 
@@ -14,7 +14,7 @@ These are functional IDs inferred from historical engineering information and ph
 
 **Indoors / process side:** a verified side circulation function from the **same cold basin**, through one isolated passage of a suitable separating heat exchanger, and back to that **same basin**. The current concept requires a suitable independently provided pump for this duty. **P5.2 remains installed in its existing circuit and is not assigned to the temporary module.**
 
-**Outdoors / buffer side:** fluid from **one selected outdoor IBC** may circulate via a suitable dedicated pump through the other side of the heat exchanger and return to the **same selected IBC**. Other filled containers could be reserves. The two sides exchange heat **without mixing liquids**.
+**Outdoors / buffer side:** fluid from **one selected outdoor IBC** may circulate via a suitable dedicated pump through the other side of the heat exchanger and return to the **same selected IBC**. Other filled containers could be reserves. The two sides exchange heat **without mixing liquids while the separating plates remain intact**; assess internal-leak consequences.
 
 **One selected IBC means one matched withdrawal-and-return pair**; tank changes require an engineered method. A pump circulates fluid, but does not create cooling energy. The outdoor tank gradually rejects heat to colder air and may need time to recharge.
 

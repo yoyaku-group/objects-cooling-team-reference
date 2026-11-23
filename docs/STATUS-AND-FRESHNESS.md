@@ -1,8 +1,8 @@
 # Status freshness — how to read this shared reference
 
-**Published 23 November 2026. This is a dated, curated public team reference, not a live feed.**
+**Revised 24 November 2026. This is a dated, curated public team reference, not a live feed.**
 
-The [24–27 November team brief](CURRENT-TEAM-BRIEF-2026-11-24.md) is the latest procurement and work-sequence snapshot, prepared late on 23 November. Its next review is **24 November at 08:00 CET**. The separate IBC receipt deadline remains **12:30 CET**. Older pump-reuse suggestions do not override the current instruction to keep P5.2 installed.
+The [24–27 November team brief](CURRENT-TEAM-BRIEF-2026-11-24.md) is the latest procurement and work-sequence snapshot, revised early on 24 November. Its next review is **24 November at 08:00 CET**. The separate IBC receipt deadline remains **12:30 CET**. Older pump-reuse suggestions do not override the current instruction to keep P5.2 installed.
 
 The operational evidence and current-state register are maintained in an **internal private** OBJECTS repository. This public documentation is a reviewed, non-sensitive projection. No Gmail, phonebook, telemetry, finance, internal map or confidential plant data is synced into this site.
 

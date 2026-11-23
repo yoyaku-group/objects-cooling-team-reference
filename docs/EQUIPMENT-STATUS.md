@@ -1,4 +1,4 @@
-# Equipment and status — 23 November 2026, late-evening update
+# Equipment and status — 24 November 2026, early-morning review
 
 This distinguishes **identified** equipment from **working and approved** equipment. Quantities and conditions below are documented status, not physical re-verification on 23 November. **Time-sensitive updates are snapshots, not live claims**: [freshness and evidence policy](STATUS-AND-FRESHNESS.md).
 

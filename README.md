@@ -1,6 +1,6 @@
 # OBJECTS Presswerk — Cooling Team Reference
 
-**Working reference • 23 November 2026, late-evening update • English • Public — curated for the Objects team and its contractor**
+**Working reference • 24 November 2026, early-morning review • English • Public — curated for the Objects team and its contractor**
 
 This small reference is designed to help colleagues understand the cooling contingency, discuss possible solutions with an AI assistant such as Gemini, and send corrections back to the team. It is **not a final hydraulic design**, a claim of operational readiness, or a substitute for a qualified installer.
 
@@ -16,7 +16,7 @@ This small reference is designed to help colleagues understand the cooling conti
 
 ## The main idea
 
-**Keep the installed cooling functions.** If the available cooling cannot sustain production, a *removable* auxiliary arrangement may couple the existing cold-water basin to a separate outdoor cold-water buffer through a suitable heat exchanger. The two fluids stay separate.
+**Keep the installed cooling functions.** If the available cooling cannot sustain production, a *removable* auxiliary arrangement may couple the existing cold-water basin to a separate outdoor cold-water buffer through a suitable heat exchanger. Intact exchanger passages keep the fluids separate in normal operation; integrity and fault response need verification.
 
 The concept does **not** imply that any particular pump, heat exchanger or outdoor tank has been approved for installation. Outdoor winter air can cool a buffer gradually; this is not proof of continuous two-press cooling.
 
@@ -37,5 +37,5 @@ People can ask Gemini to explain this documentation or generate a list of questi
 
 > **Privacy:** Do not post factory floorplans, original photos or HMI screenshots, machine serials, staff/customer details, supplier emails, passwords, electrical control settings, alarm or security information into public issues. Share evidence privately with the responsible colleagues.
 
-**Current release:** late-evening update of 23 November 2026, preparing the work of 24–27 November. Reported shop purchases require physical inventory and receipt reconciliation. The three IBCs are seller-confirmed for 24 November, 11:00–12:00 CET; **arrival remains unverified**. P5.2 remains installed, temporary pumps and exchanger remain unselected, and outdoor filling remains subject to an accepted freeze-protection plan. Consult the [current team brief](docs/CURRENT-TEAM-BRIEF-2026-11-24.md) and [freshness policy](docs/STATUS-AND-FRESHNESS.md). This is a curated excerpt of private technical records, not a live operational feed. No redistribution license has been granted; do not republish or mirror it elsewhere.
+**Current release:** early-morning review of 24 November 2026, preparing the work of 24–27 November. Reported shop purchases require physical inventory and receipt reconciliation. The three IBCs are seller-confirmed for 24 November, 11:00–12:00 CET; **arrival remains unverified**. P5.2 remains installed, temporary pumps and exchanger remain unselected, and outdoor filling remains subject to an accepted freeze-protection plan. Consult the [current team brief](docs/CURRENT-TEAM-BRIEF-2026-11-24.md) and [freshness policy](docs/STATUS-AND-FRESHNESS.md). This is a curated excerpt of private technical records, not a live operational feed. No redistribution license has been granted; do not republish or mirror it elsewhere.
 
