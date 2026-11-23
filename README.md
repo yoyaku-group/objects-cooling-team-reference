@@ -7,7 +7,8 @@ This small reference is designed to help colleagues understand the cooling conti
 ## Start here
 
 - [How the existing system and the proposed temporary module relate](docs/SYSTEM-OVERVIEW.md)
-- [What is installed, on site, ordered, or still undecided](docs/EQUIPMENT-STATUS.md)
+- [What is installed, on site, ordered, confirmed for delivery, or still undecided](docs/EQUIPMENT-STATUS.md)
+- [Status timestamps, verification deadlines and how to avoid stale facts](docs/STATUS-AND-FRESHNESS.md)
 - [Questions for engineering and the site team](docs/OPEN-QUESTIONS.md)
 - [Ask Gemini about this repository](GEMINI.md)
 - [Report an error or propose a correction](FEEDBACK.md)
@@ -24,7 +25,7 @@ The concept does **not** imply that any particular pump, heat exchanger or outdo
 |---|---|
 | **INSTALLED** | Seen in the established factory system, but not necessarily performing at full capacity now. |
 | **ON SITE / CANDIDATE** | A physical item is present; its suitability and assignment are still to be verified. |
-| **ORDERED / EMPTY** | Order has been sent; delivery, filling, acceptance and actual usable volume are separate checks. |
+| **SELLER CONFIRMED / EMPTY** | Supplier has agreed to deliver, but dispatch, physical receipt, condition, filling, technical approval and actual usable volume are separate checks. |
 | **TO SELECT** | Equipment or work proposed but not yet validated or purchased. |
 | **UNKNOWN** | Evidence is currently insufficient. Please correct or add verified information. |
 
@@ -34,4 +35,4 @@ People can ask Gemini to explain this documentation or generate a list of questi
 
 > **Privacy:** Do not post factory floorplans, original photos or HMI screenshots, machine serials, staff/customer details, supplier emails, passwords, electrical control settings, alarm or security information into public issues. Share evidence privately with the responsible colleagues.
 
-**Current release:** published 23 November 2026 as a working reference for the Objects team and its contractors. This repository is readable by design, but it is a curated excerpt of a larger private technical record. No redistribution license has been granted; do not republish or mirror it elsewhere.
+**Current release:** updated 23 November 2026 following supplier confirmation of the three IBCs for 24 November 11:00–12:00 CET. **Their arrival remains unverified.** Consult [freshness policy](docs/STATUS-AND-FRESHNESS.md) before treating any time-sensitive statement as current. This is a working reference for the Objects team and its contractors. This repository is readable by design, but it is a curated excerpt of a larger private technical record. No redistribution license has been granted; do not republish or mirror it elsewhere.
