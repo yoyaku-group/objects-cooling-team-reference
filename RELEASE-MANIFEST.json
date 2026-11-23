@@ -1,27 +1,35 @@
 {
   "created": "2026-11-23",
-  "release_status": "PUBLISHED 2026-11-23 - public reference repo (curated sanitized subset of a private technical record)",
+  "release_status": "PUBLIC TEAM REFERENCE — curated late-evening 23 November 2026 snapshot for 24–27 November work",
   "repository_source": "separate curated standalone release candidate",
   "files": [
     {
       "path": "README.md",
-      "sha256": "5676e0c2ef190ce48b6050de0921ed1b0e7c1c033f463a907db583ad9edce236"
+      "sha256": "5867e0e218fb89a60c2e7cbe0423318e1cdaaa1d5dc82d5f9a79dc6ea6f26f43"
+    },
+    {
+      "path": "docs/CURRENT-TEAM-BRIEF-2026-11-24.md",
+      "sha256": "c3c4baf6f106358891d1e17441facf61df34bd33cac5b2a2218ffd60320563b9"
     },
     {
       "path": "docs/SYSTEM-OVERVIEW.md",
-      "sha256": "bb572ad16389d9f2430fb51e67b93b6a58179c3331cccfe6a5769d20542265c5"
+      "sha256": "b3cfd752d7d78993bb98d1215ecc956c9dc2aad69963b6cfedccadb025199d9d"
     },
     {
       "path": "docs/EQUIPMENT-STATUS.md",
-      "sha256": "3f2bd8283e3f51858066328acbf93dc60935b95b4e9d82a5f639bcbcafdaa68d"
+      "sha256": "bfabbd7f13e7e883e7209fe3d533ab529680eb9e2854ae72924566026f43978a"
     },
     {
       "path": "docs/OPEN-QUESTIONS.md",
-      "sha256": "5614ab6b3e6d8db0fd0ae73b52a8be6d59c7ccaf7c45a8773891e42f1deff772"
+      "sha256": "738ead711c76375280d7b4656ed72fce02f1ba3c9a65f6130ce94c69dbefcd6b"
+    },
+    {
+      "path": "docs/STATUS-AND-FRESHNESS.md",
+      "sha256": "229381fef4c31d5f1c384891e14534a077de13a3809181643659436d70a71355"
     },
     {
       "path": "GEMINI.md",
-      "sha256": "82bc135e17c3c099c5e117c3e93e22d850b3ed23db70e8e11906983dd07200dc"
+      "sha256": "ce8cbae96e8821b9a0e8eb3d0add6639b6db647e5a47a4417903bb331d9c9fbb"
     },
     {
       "path": "FEEDBACK.md",
@@ -36,5 +44,8 @@
       "sha256": "9de929f2bddd226c3b9807684fe34aa3d939ba52ae49dc5980da76812bbd6656"
     }
   ],
-  "redactions": "no original photos, P&ID PDFs, HMI screenshots, vendor mail, staff contacts, building security, serial numbers, passwords or private repo links"
+  "redactions": "no prices, original photos, P&ID PDFs, HMI screenshots, vendor mail or contact details, staffing schedules, building access/security, serial numbers, passwords, control settings, private repository links or private manual",
+  "updated": "2026-11-23",
+  "next_review_at": "2026-11-24T08:00:00+01:00",
+  "ibc_receipt_review_at": "2026-11-24T12:30:00+01:00"
 }

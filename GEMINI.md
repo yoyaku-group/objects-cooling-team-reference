@@ -9,7 +9,7 @@ Gemini can help you understand this working reference and identify missing infor
 3. Paste the **GitHub repository or branch URL** and choose **Import**. For private repositories, the GitHub account must have access and be connected to Gemini.
 4. Ask a question about the imported documents, for example:
    - “Explain which part of the cooling system is installed and which part is proposed.”
-   - “What evidence is missing before reusing pump P5.2 indoors?”
+   - “How does the temporary concept provide two independent circulation duties while keeping P5.2 installed?”
    - “What assumptions does the outdoor IBC cooling proposal depend on?”
    - “Which statements in EQUIPMENT-STATUS.md are uncertain or outdated?”
    - “Create a short list of clarifying questions for the responsible installer, without asking staff to bypass safety protections.”
@@ -21,4 +21,5 @@ Official instructions: https://support.google.com/gemini/answer/16176929?hl=en
 
 ## Copyable example prompt
 
-> This repository is a working technical reference, not an approved as-built design. Identify what is confirmed, what is proposed, and what is unknown. For every suggestion, cite the exact file and section. Do not assume P5.2 is operational or that the outdoor buffer provides continuous cooling. Please ask for missing evidence rather than inventing flow values, piping connections, frost controls or safety permissions.
+> This repository is a working technical reference, not an approved as-built design. Read the current team brief first. Identify what is confirmed, what is proposed, and what is unknown. For every suggestion, cite the exact file and section. Keep P5.2 installed as required by the current plan. Do not assume the outdoor buffer provides continuous cooling, that reported purchases are installed, or that an outdoor water circuit has adequate freeze protection. Please ask for missing evidence rather than inventing flow values, piping connections, frost controls or safety permissions. Check review deadlines before treating a dated statement as current.
+

@@ -1,6 +1,8 @@
 # Cooling concept — current plant versus temporary add-on
 
-**Evidence date: 23 November 2026.** Functional overview, not installation instructions. Physical connections, current valve configuration and measured performance remain unconfirmed.
+**Evidence date: 23 November 2026, late-evening update.** Functional overview, not installation instructions. Physical connections, current valve configuration and measured performance remain unconfirmed.
+
+> Read the [24–27 November brief](CURRENT-TEAM-BRIEF-2026-11-24.md) for updated purchases, delivery and winter hold points. The drawing below is a functional concept, not an approved assembly drawing.
 
 ## Existing functions to preserve
 
@@ -10,7 +12,7 @@ These are functional IDs inferred from historical engineering information and ph
 
 ## Proposed temporary module — not installed
 
-**Indoors / process side:** a verified side circulation function from the **same cold basin**, through one side of a suitable separating heat exchanger, and back to that **same basin**. The existing pump labelled **P5.2** is a candidate for this duty only after the responsible installer verifies its identity, functionality, hydraulics and controls.
+**Indoors / process side:** a verified side circulation function from the **same cold basin**, through one isolated passage of a suitable separating heat exchanger, and back to that **same basin**. The current concept requires a suitable independently provided pump for this duty. **P5.2 remains installed in its existing circuit and is not assigned to the temporary module.**
 
 **Outdoors / buffer side:** fluid from **one selected outdoor IBC** may circulate via a suitable dedicated pump through the other side of the heat exchanger and return to the **same selected IBC**. Other filled containers could be reserves. The two sides exchange heat **without mixing liquids**.
 
@@ -19,30 +21,31 @@ These are functional IDs inferred from historical engineering information and ph
 ### Simplified illustration (functional only)
 
 ```mermaid
-flowchart LR
-  subgraph Plant["EXISTING FACTORY — RETAIN"]
-    A["Cold basin 1010"] --> B["P1 / two presses"] --> C["Warm basin 1011"] --> D["P2 / Alfa 1003"] --> A
-    E["P3 / Güntner 1002 — secondary freecooling"] --- D
+flowchart TB
+  subgraph Process["PROPOSED PROCESS SIDE"]
+    A["Existing cold basin"] --> P["Separate process-side pump"]
+    P --> X["HX process passage"]
+    X --> A
   end
-  subgraph Temp["TEMPORARY ADD-ON — NOT INSTALLED"]
-    F["Indoor circulation: P5.2 candidate OR approved industrial pump"] --> G["Separate temporary HX"]
-    H["Selected outdoor buffer"] --> I["Approved outdoor pump"] --> G
-    G --> H
+  subgraph Buffer["PROPOSED OUTDOOR SIDE"]
+    B["One selected IBC"] --> Q["Separate buffer-side pump"]
+    Q --> Y["HX buffer passage"]
+    Y --> B
   end
-  A -. "Proposed independent basin sidestream, only after site validation" .- F
-  G -. "Process water returns to same cold basin" .-> A
+  X -. "Heat transfer only; no liquid connection" .- Y
 ```
 
-The illustration shows *functions*, not piping direction or permissions for the actual installed valves.
+The two HX boxes represent **two isolated liquid passages in one heat exchanger**, not two separate exchangers. The arrows show proposed circulation functions, not the physical port positions or valve arrangement. Both duties require validated equipment and site approval; the illustration does not authorize filling or starting the module. The existing press circulation and cooling functions remain in place and are omitted here for clarity.
 
 ## Alternative to investigate before buying
 
-The installer should compare the existing **P2/Alfa/freecooling** performance with P5.2 reuse and a fully independent temporary module. Reconfiguring an occupied heat-exchanger passage might remove useful current freecooling and create fluid/pressure incompatibilities. No photographed exchanger side should be assumed spare.
+The installer should quantify useful existing **P2/Alfa/freecooling** performance and compare it with a fully independent temporary module or a supplied temporary cooler. **P5.2 stays in place under the current plan.** Reconfiguring an occupied exchanger passage could remove useful existing cooling and create fluid/pressure incompatibilities. No exchanger passage should be assumed spare.
 
 ## Environmental and safety limits
 
 - Outdoor IBCs are vented storage tanks, **not** pressurized industrial process vessels.
-- If the outside temperature can freeze the fluid, the installer must define the overnight and power-loss state for hoses, valves, pumps and HX.
+- **Outdoor filling and operation remain on hold** until the installer has defined and accepted the overnight and power-loss state for tanks, hoses, valves, pumps and HX. Emptying visible hoses alone does not verify complete drainage.
 - Do not connect an outdoor water buffer directly to an existing glycol or pressurized mould circuit without a fully engineered fluid/pressure separation strategy.
 - Do not override the main cooling machine's fault or protection chain. A responsible qualified contractor approves any change and commissioning.
 - Heat balance, sustained two-press operation and record quality remain **unverified** until representative testing.
+

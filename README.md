@@ -1,11 +1,12 @@
 # OBJECTS Presswerk — Cooling Team Reference
 
-**Working reference • 23 November 2026 • English • Public — curated for the Objects team and its contractor**
+**Working reference • 23 November 2026, late-evening update • English • Public — curated for the Objects team and its contractor**
 
 This small reference is designed to help colleagues understand the cooling contingency, discuss possible solutions with an AI assistant such as Gemini, and send corrections back to the team. It is **not a final hydraulic design**, a claim of operational readiness, or a substitute for a qualified installer.
 
 ## Start here
 
+- **[Current team brief for 24–27 November](docs/CURRENT-TEAM-BRIEF-2026-11-24.md)** — updated purchases, delivery checks, two independent pump duties and winter hold point. **P5.2 stays installed.** This supersedes earlier suggestions of removing or reusing P5.2 for the temporary module.
 - [How the existing system and the proposed temporary module relate](docs/SYSTEM-OVERVIEW.md)
 - [What is installed, on site, ordered, confirmed for delivery, or still undecided](docs/EQUIPMENT-STATUS.md)
 - [Status timestamps, verification deadlines and how to avoid stale facts](docs/STATUS-AND-FRESHNESS.md)
@@ -27,6 +28,7 @@ The concept does **not** imply that any particular pump, heat exchanger or outdo
 | **ON SITE / CANDIDATE** | A physical item is present; its suitability and assignment are still to be verified. |
 | **SELLER CONFIRMED / EMPTY** | Supplier has agreed to deliver, but dispatch, physical receipt, condition, filling, technical approval and actual usable volume are separate checks. |
 | **TO SELECT** | Equipment or work proposed but not yet validated or purchased. |
+| **OWNER-REPORTED PURCHASED** | The owner reports a purchase; physical inventory, receipt reconciliation and technical suitability are separate checks. |
 | **UNKNOWN** | Evidence is currently insufficient. Please correct or add verified information. |
 
 ## Collaborate without confusing suggestions with site instructions
@@ -35,4 +37,5 @@ People can ask Gemini to explain this documentation or generate a list of questi
 
 > **Privacy:** Do not post factory floorplans, original photos or HMI screenshots, machine serials, staff/customer details, supplier emails, passwords, electrical control settings, alarm or security information into public issues. Share evidence privately with the responsible colleagues.
 
-**Current release:** updated 23 November 2026 following supplier confirmation of the three IBCs for 24 November 11:00–12:00 CET. **Their arrival remains unverified.** Consult [freshness policy](docs/STATUS-AND-FRESHNESS.md) before treating any time-sensitive statement as current. This is a working reference for the Objects team and its contractors. This repository is readable by design, but it is a curated excerpt of a larger private technical record. No redistribution license has been granted; do not republish or mirror it elsewhere.
+**Current release:** late-evening update of 23 November 2026, preparing the work of 24–27 November. Reported shop purchases require physical inventory and receipt reconciliation. The three IBCs are seller-confirmed for 24 November, 11:00–12:00 CET; **arrival remains unverified**. P5.2 remains installed, temporary pumps and exchanger remain unselected, and outdoor filling remains subject to an accepted freeze-protection plan. Consult the [current team brief](docs/CURRENT-TEAM-BRIEF-2026-11-24.md) and [freshness policy](docs/STATUS-AND-FRESHNESS.md). This is a curated excerpt of private technical records, not a live operational feed. No redistribution license has been granted; do not republish or mirror it elsewhere.
+
