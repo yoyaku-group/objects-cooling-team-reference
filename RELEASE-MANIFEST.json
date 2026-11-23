@@ -1,0 +1,40 @@
+{
+  "created": "2026-11-23",
+  "release_status": "PUBLISHED 2026-11-23 - public reference repo (curated sanitized subset of a private technical record)",
+  "repository_source": "separate curated standalone release candidate",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "dded2df7c717fb3d9921a75a6841cc288f5c1c33803aed276f1948b80a3861d7"
+    },
+    {
+      "path": "docs/SYSTEM-OVERVIEW.md",
+      "sha256": "bb572ad16389d9f2430fb51e67b93b6a58179c3331cccfe6a5769d20542265c5"
+    },
+    {
+      "path": "docs/EQUIPMENT-STATUS.md",
+      "sha256": "3f2bd8283e3f51858066328acbf93dc60935b95b4e9d82a5f639bcbcafdaa68d"
+    },
+    {
+      "path": "docs/OPEN-QUESTIONS.md",
+      "sha256": "5614ab6b3e6d8db0fd0ae73b52a8be6d59c7ccaf7c45a8773891e42f1deff772"
+    },
+    {
+      "path": "GEMINI.md",
+      "sha256": "82bc135e17c3c099c5e117c3e93e22d850b3ed23db70e8e11906983dd07200dc"
+    },
+    {
+      "path": "FEEDBACK.md",
+      "sha256": "215c7329dc29419b5a5bde5fba24640be75c5ce56c7a96928888555845b32732"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/correction.yml",
+      "sha256": "c288c536ae24c1ed209026f29d4db368ddf3d61fbf5d53b644ac8713491d9c0c"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "9de929f2bddd226c3b9807684fe34aa3d939ba52ae49dc5980da76812bbd6656"
+    }
+  ],
+  "redactions": "no original photos, P&ID PDFs, HMI screenshots, vendor mail, staff contacts, building security, serial numbers, passwords or private repo links"
+}

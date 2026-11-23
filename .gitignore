@@ -1,0 +1,14 @@
+# Do not upload internal technical records to the release repo
+.DS_Store
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+private/
+internal/
+site-security/
+photos/
+*.log

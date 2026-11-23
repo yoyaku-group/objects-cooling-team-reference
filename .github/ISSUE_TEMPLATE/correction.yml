@@ -1,0 +1,46 @@
+name: Correction or missing information
+description: Report a factual error or omission in this public reference (no confidential site details).
+title: "Correction: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. This is a public issue. Do not include internal site photos, security details, personal data, supplier quotes or private control settings. Use the company's private communication channel for sensitive evidence.
+  - type: input
+    id: location
+    attributes:
+      label: Document and heading
+      description: Example — docs/EQUIPMENT-STATUS.md, P5.2 status
+      placeholder: Filename + section
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of feedback
+      options:
+        - Incorrect information
+        - Missing information
+        - Outdated status
+        - Suggested clarification
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: Correction or suggestion
+      description: Keep it factual; omit confidential evidence.
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Basis of your feedback
+      options:
+        - Personally observed on site
+        - Equipment label or document
+        - Reported by a colleague
+        - Suggestion / to be verified
+    validations:
+      required: true
